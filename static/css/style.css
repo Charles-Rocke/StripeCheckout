@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+img {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0;
+}
+
+#dbgRegister,
+#dbgAuthenticate {
+  text-align: left;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  height: 15rem;
+  width: 100%;
+  overflow-y: auto;
+}
+
+details {
+  margin-top: 1rem;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+
+
+.debug-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.debug-container section {
+  width: 100%;
+  max-width: 23.125rem;
+}
+
+/* My CSS */
+a:hover{
+	color: white;
+}
